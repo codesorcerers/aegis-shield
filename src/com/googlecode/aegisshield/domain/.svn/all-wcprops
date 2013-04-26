@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/63/trunk/Aegis%20Shield/src/com/googlecode/aegisshield/domain
+END
+AccountInformationProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/63/trunk/Aegis%20Shield/src/com/googlecode/aegisshield/domain/AccountInformationProvider.java
+END
+AccountInformation.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/63/trunk/Aegis%20Shield/src/com/googlecode/aegisshield/domain/AccountInformation.java
+END
+AccountInformationRepository.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/63/trunk/Aegis%20Shield/src/com/googlecode/aegisshield/domain/AccountInformationRepository.java
+END
+DataRepository.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/63/trunk/Aegis%20Shield/src/com/googlecode/aegisshield/domain/DataRepository.java
+END

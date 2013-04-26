@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="reveal_pwd_message">tap and hold to reveal</string>
+    <string name="strength_label_text">Strength</string>
+    <string name="hello">Aegis Shield </string>
+    <string name="app_name">Aegis Shield </string>
+    <string name="strength_button_text">Password Strength </string>
+    <string name="verify_password_text">Verify Password Strength </string>
+    <string name="back_button_text">Back </string>
+    <string name="generate_password_text">Generate Password </string>
+    <string name="account_overview_text">Account Overview</string>
+    <string name="add_account_button_text">Create Account </string>
+    <string name="account_name_text">Name* </string>
+    <string name="account_user_text">User* </string>
+    <string name="account_password_text">Password* </string>
+    <string name="account_description_text">Description </string>
+    <string name="account_overview_button_text">Overview </string>
+    <string name="delete_account_text">Delete </string>
+    <string name="edit_account_text">Edit </string>
+    <string name="edit_account_info_text">Edit Account Information</string>
+    <string name="add_account_text">Add </string>
+    <string name="add_account_info_text">Add Account Information </string>
+    <string name="save_account_button_text">Save </string>
+    <string name="overview_account_text">Overview </string>
+    <string name="login_password_text">Password </string>
+    <string name="login_passwordcheck_text">Check Password </string>
+    <string name="login_button_text">Login </string>
+    <string name="exit_button_text">Exit Application </string>
+    <string name="alert_window">Alert Window </string>
+    <string name="alert_ok_button">OK </string>
+    <string name="message_alert_pass_match">Entered passwords do not match. </string>
+    <string name="message_alert_invalid_pass">Invalid master password. </string>
+    <string name="message_alert_corrupted_account">This account data is corrupted or you\'ve saved the password with a different key. Please delete account, and re-enter data.</string>
+    <string name="message_alert_empty_fields">Please fill in the required fields. </string>
+    <string name="hint_fill_account_name">Account name is a required field. </string>
+    <string name="hint_fill_user_name">User name is a required field. </string>
+    <string name="hint_fill_password">User password is a required field. </string>
+	<string-array name="password_strength">
+		<item>Weak</item>
+		<item>Good</item>
+		<item>Strong</item>
+	</string-array>
+</resources>

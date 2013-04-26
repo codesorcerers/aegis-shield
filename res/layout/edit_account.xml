@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/LayoutVerticalFill" >
+    
+    <LinearLayout style="@style/LayoutHorizontalFill" >
+        <TextView android:id="@+id/edit_account_screen_name"
+            android:layout_width="fill_parent" 
+            android:layout_height="fill_parent"
+            android:layout_centerHorizontal="true" 
+            android:text="@string/edit_account_info_text" />
+    </LinearLayout>
+    
+    <LinearLayout style="@style/LayoutHorizontalFill" >
+        <TextView android:id="@+id/account_name_label"
+            android:text="@string/account_name_text"
+            style="@style/WeightedLabel" />
+
+        <EditText android:id="@+id/account_name_edit"
+            android:hint="@string/hint_fill_account_name"
+            style="@style/WeightedEdit" />
+    </LinearLayout>
+    
+    <LinearLayout style="@style/LayoutHorizontalFill" >
+        <TextView android:id="@+id/account_description_label"
+            android:text="@string/account_description_text"
+            style="@style/WeightedLabel" />
+
+        <EditText android:id="@+id/account_description_edit"
+            style="@style/WeightedEdit" />
+    </LinearLayout>
+    
+    <LinearLayout style="@style/LayoutHorizontalFill" >
+        <TextView android:id="@+id/account_user_label"
+            android:text="@string/account_user_text"
+            style="@style/WeightedLabel" />
+
+        <EditText android:id="@+id/account_user_edit"
+            android:hint="@string/hint_fill_user_name"
+            style="@style/WeightedEdit" />
+    </LinearLayout>
+    
+    <LinearLayout style="@style/LayoutHorizontalFill" >
+        <TextView android:id="@+id/account_password_label"
+            android:text="@string/account_password_text"
+            style="@style/WeightedLabel" />
+
+        <TextSwitcher android:id="@+id/TextSwitcher01" 
+        	style="@style/ContentTwoThirds" >
+        	
+			<TextView android:id="@+id/TextView03" 
+				android:text="@string/reveal_pwd_message"
+				style="@style/CustomViewText" />
+                
+			<EditText android:id="@+id/account_password_edit"
+                android:hint="@string/hint_fill_password"
+				android:singleLine="true" 
+                style="@style/ContentHorizontal" />
+		</TextSwitcher>
+    </LinearLayout>
+    
+	<LinearLayout style="@style/LayoutHorizontalFill" >
+		<TextView android:id="@+id/TextView01" 
+			android:text="@string/strength_label_text"
+            style="@style/WeightedLabel" />
+            
+		<TextView android:id="@+id/password_strength"
+            style="@style/StrenghtText" />
+	</LinearLayout>
+    
+    <LinearLayout style="@style/LayoutHorizontalFill">
+    	<Button android:id="@+id/generate_button_edit" 
+			android:text="@string/generate_password_text"
+            style="@style/ButtonHalfScreen" />
+            			
+        <Button android:id="@+id/save_account_button" 
+            android:text="@string/save_account_button_text"
+            style="@style/ButtonHalfScreen" />
+    </LinearLayout>
+
+</LinearLayout>

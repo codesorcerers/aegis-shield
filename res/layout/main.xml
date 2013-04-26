@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    style="@style/LayoutVerticalFill" >
+        
+    <LinearLayout style="@style/LayoutHorizontalFill" >
+        <TextView  android:id="@+id/login_password_textview"
+            android:text="@string/login_password_text" 
+            style="@style/WeightedLabel" />
+            
+        <EditText android:id="@+id/login_password_edittext"
+            android:password="true"
+            style="@style/WeightedEdit" />
+    </LinearLayout>
+    
+	<LinearLayout android:id="@+id/check_password_widget"
+        android:visibility="invisible"
+        style="@style/LayoutHorizontalFill" >
+        <TextView android:id="@+id/login_passwordcheck_textview"
+            android:text="@string/login_passwordcheck_text"
+            style="@style/WeightedLabel" />
+        
+        <EditText android:id="@+id/login_passwordcheck_edittext"
+            android:password="true"
+            style="@style/WeightedEdit" />
+    </LinearLayout>
+    
+    <LinearLayout style="@style/LayoutHorizontalFill" >
+        <Button android:id="@+id/login_button"
+            android:text="@string/login_button_text"
+            style="@style/ButtonFullScreen" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="NormalText" >
+        <item name="android:textSize">14sp</item>
+    </style>
+    
+    <style name="StrenghtText" parent="@style/NormalText">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    
+    <style name="ContentHorizontal">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    
+    <style name="ContentWrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    
+    <style name="LayoutVerticalWrap" parent="@style/ContentHorizontal">
+        <item name="android:orientation">vertical</item>
+    </style>
+    
+    <style name="LayoutHorizontalFill" parent="@style/ContentHorizontal">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingBottom">3sp</item>
+    </style>
+    
+    <style name="LayoutVerticalFill">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    
+    <style name="ContentOneThird">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">2</item>
+    </style>
+    
+    <style name="ContentTwoThirds">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    
+    <style name="WeightedLabel" parent="@style/ContentOneThird">
+        <item name="android:textSize">14sp</item>
+    </style>
+    
+    <style name="WeightedEdit" parent="@style/ContentTwoThirds">
+        <item name="android:singleLine">true</item>
+    </style>
+    
+    <style name="ButtonHalfScreen">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    
+    <style name="ButtonFullScreen">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    
+    <style name="CustomViewText" parent="@style/ContentHorizontal">
+        <item name="android:background">@android:drawable/edit_text</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMediumInverse</item>
+        <item name="android:textColor">@android:color/primary_text_light</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+</resources>
